@@ -1,0 +1,18 @@
+'nom','latitude','longitude'
+'euromaster1','45.758376','3.106983'
+'euromaster2','45.759064','3.121746'
+'euromaster3','45.763496','3.117583'
+'euromaster4','45.755172','3.096984'
+'euromaster5','45.756460','3.094066'
+'euromaster6','45.761789','3.130630'
+
+[{name: 'euro1', latitude: 45.758376, longitude: 3.106983}
+{name: 'euro2', latitude: 45.759064, longitude: 3.106983}
+{name: 'euro3', latitude: 45.763496, longitude: 3.117583},
+{name: 'euro4', latitude: 45.755172, longitude: 3.096984},
+{name: 'euro5', latitude: 45.756460, longitude: 3.094066},
+{name: 'euro6', latitude: 45.761789, longitude: 3.130630}]
+
+[{title: 'Long Event',start: new Date(y, m, d - 5),end: new Date(y, m, d - 2)},
+{title: 'Long Event',start: new Date(y, m, d - 5),end: new Date(y, m, d - 2)},
+{title: 'Long Event',start: new Date(y, m, d - 5),end: new Date(y, m, d - 2)}]

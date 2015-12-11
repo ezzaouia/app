@@ -1,0 +1,29 @@
+<ion-view view-title="Geting in touch">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="euromap in euromaps" type="item-text-wrap" href="#">
+        <img ng-src="./img/ben.png">
+        <h2>{{euromap.name}}</h2>
+        <p>{{euromap.latitude}} {{euromap.longitude}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+
+        <ion-option-button class="" ng-click="remove()">
+          <i class="icon ion-android-call"></i>
+        </ion-option-button>
+        <ion-option-button class="" ng-click="remove()">
+          <i class="icon ion-calendar"></i>
+        </ion-option-button>
+        <ion-option-button class="" ng-click="remove()">
+          <i class="icon ion-chatbubbles"></i>
+        </ion-option-button>
+
+        <!--
+      <button class="button button-clear pull-right">
+  <i class="icon ion-calendar"></i>
+</button>
+-->
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
